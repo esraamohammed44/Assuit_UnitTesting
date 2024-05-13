@@ -124,7 +124,7 @@ namespace BMW_Testing
             string info = bmw.GetCarInfo();
 
             // Assert
-            Assert.StartsWith("Velo", info);
+            Assert.Contains("Stop", info);
 
         }
         // Test5
