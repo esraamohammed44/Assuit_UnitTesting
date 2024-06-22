@@ -5,7 +5,7 @@
         public double velocity { get; set; }
         public DrivingMode drivingMode { get; set; }
 
-        public Car()
+        public Car()  //hello its mohamed bakry
         {
             velocity = 0;
             drivingMode = DrivingMode.Stopped;
